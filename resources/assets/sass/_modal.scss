@@ -1,0 +1,128 @@
+.modal {
+    .nav.nav-tabs.nav-advance {
+        background: $primary-blue;
+        border-radius: 4px;
+        padding: 8px 4px;
+        max-width: 360px;
+        border: 0;
+        margin: 0px auto 30px auto;
+        li {
+            &:first-child {
+                padding-left: 4px;
+                a.nav-link {
+                    border-radius: 4px 0 0 4px;
+                }
+            }
+            &:last-child {
+                padding-right: 4px;
+                a.nav-link {
+                    border-radius: 0 4px 4px 0
+                }
+            }
+            width: 50%;
+            text-align: center;
+            @media (max-width: $small) {
+                width: 100%;
+            }
+            a {
+                background: transparent;
+                color: $white;
+                padding: 10px 15px;
+                line-height: 24px;
+                font-weight: 600;
+                border: none;
+                &:hover,
+                &:focus {
+                    background: $white !important;
+                    color: $primary-blue;
+                }
+                i {
+                    margin-right: 10px;
+                }
+            }
+            &:hover,
+            &:focus {
+                background: $white !important;
+                color: $primary-blue;
+            }
+        }
+        li.active {
+            background: $white !important;
+            a.nav-link {
+                background: $white !important;
+                color: $primary-blue;
+            }
+        }
+    }
+    .tab-content {
+        .tab-pane {
+            padding: 0 1em;
+            @media (max-width: $small) {
+                .form-inline-style {
+                    .fl-right {
+                        float: none;
+                        width: 100%;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.log-option {
+    text-align: center;
+    margin: 40px 0 5px 0;
+    border-top: 1px solid $light-gray-shade-7;
+    span {
+        background: $white;
+        width: 40px;
+        height: 40px;
+        border: 1px solid $light-gray-shade-7;
+        display: inline-block;
+        line-height: 40px;
+        border-radius: 50%;
+        top: -20px;
+        position: relative;
+    }
+}
+
+.log-btn {
+    border: 2px solid $light-gray-shade-7;
+    padding: 10px 15px;
+    border-radius: 40px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-align: center;
+    transition: all ease 0.4s;
+    i {
+        margin-right: 10px;
+    }
+}
+
+.fb-log-btn {
+    color: $dark-blue;
+    border-color: $dark-blue;
+    &:hover,
+    &:focus {
+        background: $dark-blue;
+        color: $white;
+    }
+}
+
+.gplus-log-btn {
+    color: $red-shade-2;
+    border-color: $red-shade-2;
+    &:hover,
+    &:focus {
+        background: $red-shade-2;
+        color: $white;
+    }
+}
+
+.form-control.height-120 {
+    height: 120px;
+}

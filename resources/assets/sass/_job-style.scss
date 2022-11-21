@@ -1,0 +1,60 @@
+.card.job-d-styel-1 {
+    position: sticky;
+    top: 110px;
+    background: $white;
+    z-index: 1;
+    .card-body {
+        h4.meg-0 {
+            color: $primary-blue;
+            background: rgba(47, 178, 211, 0.2);
+            display: inline-block;
+            padding: 5px 10px;
+            font-size: 20px;
+            border-radius: 4px;
+            text-align: center;
+            font-family: $Playfair;
+            font-weight: bold;
+        }
+        span {
+            width: 100%;
+            display: block;
+        }
+        .user_profile_img {
+            img {
+                border: 2px dotted $light-gray-shade-2;
+                border-radius: 50px;
+                margin: 5px auto;
+                float: none;
+                display: table;
+            }
+        }
+        .btn-job {
+            display: inline-block;
+            min-width: 140px;
+            text-align: center;
+            border-radius: 4px;
+            padding: 6px 20px;
+            font-family: $Poppins;
+            font-weight: 500;
+            text-transform: uppercase;
+            border: 2px solid $primary-blue;
+            margin: 10px auto 5px;
+            font-size: 14px;
+            @media (max-width: $small) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .user_job_detail {
+        // border-left: 1px solid $light-gray-shade-7;
+        @media (max-width: $small) {
+            border-left: none;
+            border-top: 1px solid $light-gray-shade-7;
+            padding-top: 30px;
+        }
+        span {
+            width: auto;
+            display: inline-block;
+        }
+    }
+}
