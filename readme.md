@@ -1,3 +1,5 @@
+### ⚠️ This repository is for demonstration and code review purpose only. Sensitive and core business logic has been removed from codebase.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
